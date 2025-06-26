@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { ArrowLeft, Heart, Umbrella, PiggyBank } from "lucide-react";
+import { ArrowLeft, Heart, Umbrella, PiggyBank, Shield } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Benefits = () => {
