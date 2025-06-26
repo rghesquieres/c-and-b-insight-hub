@@ -1,14 +1,18 @@
 
 import { Link } from "react-router-dom";
-import { BarChart3, Shield, Users } from "lucide-react";
+import { TrendingUp, Heart, Users } from "lucide-react";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-cream">
       {/* Header */}
       <header className="px-6 py-4 flex justify-between items-center">
-        <div className="logo-text text-3xl">
-          C&B
+        <div className="flex items-center">
+          <img 
+            src="/lovable-uploads/6704a837-576d-4d57-b1fc-0149f467cb30.png" 
+            alt="C&B Consulting" 
+            className="h-12 w-auto"
+          />
         </div>
         <Link 
           to="/login" 
@@ -31,10 +35,10 @@ const Index = () => {
         {/* Service Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl animate-slide-up">
           {/* Compensations */}
-          <Link to="/compensations" className="block">
+          <Link to="/compensations" className="block h-full">
             <div className="service-card">
               <div className="flex items-center mb-4">
-                <BarChart3 className="w-8 h-8 mr-3" />
+                <TrendingUp className="w-8 h-8 mr-3 flex-shrink-0" />
                 <h3 className="m-0">Compensations</h3>
               </div>
               <p>
@@ -45,10 +49,10 @@ const Index = () => {
           </Link>
 
           {/* Benefits */}
-          <Link to="/benefits" className="block">
+          <Link to="/benefits" className="block h-full">
             <div className="service-card">
               <div className="flex items-center mb-4">
-                <Shield className="w-8 h-8 mr-3" />
+                <Heart className="w-8 h-8 mr-3 flex-shrink-0" />
                 <h3 className="m-0">Benefits</h3>
               </div>
               <p>
@@ -59,10 +63,10 @@ const Index = () => {
           </Link>
 
           {/* HR Control */}
-          <Link to="/hr-control" className="block">
+          <Link to="/hr-control" className="block h-full">
             <div className="service-card">
               <div className="flex items-center mb-4">
-                <Users className="w-8 h-8 mr-3" />
+                <Users className="w-8 h-8 mr-3 flex-shrink-0" />
                 <h3 className="m-0">HR Control</h3>
               </div>
               <p>

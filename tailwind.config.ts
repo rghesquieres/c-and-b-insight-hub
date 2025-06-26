@@ -63,7 +63,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Couleurs personnalisées pour le site RH
+				// Couleurs personnalisées pour le site RH - ajustées pour correspondre au logo
 				cream: {
 					50: '#fefdf8',
 					100: '#fdfcf0',
@@ -78,17 +78,17 @@ export default {
 					DEFAULT: '#fefdf8'
 				},
 				korn: {
-					50: '#f0f7f0',
-					100: '#dceedc',
-					200: '#b8deb8',
-					300: '#8cc88c',
-					400: '#5cb05c',
-					500: '#3a9a3a',
-					600: '#2d7d2d',
-					700: '#236323',
-					800: '#1e4f1e',
-					900: '#1a411a',
-					DEFAULT: '#2d7d2d'
+					50: '#f0f9f5',
+					100: '#dcf2e8',
+					200: '#bce5d3',
+					300: '#8dd1b5',
+					400: '#5ab795',
+					500: '#369c79',
+					600: '#2a7d62',
+					700: '#236550',
+					800: '#1f5142',
+					900: '#1d4437',
+					DEFAULT: '#2a7d62'
 				}
 			},
 			borderRadius: {

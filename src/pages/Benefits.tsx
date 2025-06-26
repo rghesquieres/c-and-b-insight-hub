@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { ArrowLeft, Shield, Umbrella, PiggyBank, Heart } from "lucide-react";
+import { ArrowLeft, Heart, Umbrella, PiggyBank } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Benefits = () => {
@@ -12,9 +12,11 @@ const Benefits = () => {
           <Link to="/" className="text-korn hover:text-korn-600 transition-colors">
             <ArrowLeft className="w-6 h-6" />
           </Link>
-          <div className="logo-text text-3xl">
-            C&B
-          </div>
+          <img 
+            src="/lovable-uploads/6704a837-576d-4d57-b1fc-0149f467cb30.png" 
+            alt="C&B Consulting" 
+            className="h-8 w-auto"
+          />
         </div>
         <Link 
           to="/login" 
@@ -31,7 +33,7 @@ const Benefits = () => {
           <div className="text-center mb-16 animate-fade-in">
             <div className="flex justify-center mb-6">
               <div className="bg-korn p-4 rounded-full">
-                <Shield className="w-12 h-12 text-white" />
+                <Heart className="w-12 h-12 text-white" />
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-elegant text-korn mb-6">
