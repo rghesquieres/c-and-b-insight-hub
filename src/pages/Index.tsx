@@ -1,6 +1,5 @@
 
 import { Link } from "react-router-dom";
-import { TrendingUp, Heart, Users } from "lucide-react";
 
 const Index = () => {
   return (
@@ -37,10 +36,7 @@ const Index = () => {
           {/* Compensations */}
           <Link to="/compensations" className="block h-full">
             <div className="service-card">
-              <div className="flex items-center mb-4">
-                <TrendingUp className="w-8 h-8 mr-3 flex-shrink-0" />
-                <h3 className="m-0">Compensations</h3>
-              </div>
+              <h3 className="m-0">Compensations</h3>
               <p>
                 Analyse des données salariales et benchmarking pour optimiser 
                 vos politiques de rémunération et maintenir votre compétitivité.
@@ -51,10 +47,7 @@ const Index = () => {
           {/* Benefits */}
           <Link to="/benefits" className="block h-full">
             <div className="service-card">
-              <div className="flex items-center mb-4">
-                <Heart className="w-8 h-8 mr-3 flex-shrink-0" />
-                <h3 className="m-0">Benefits</h3>
-              </div>
+              <h3 className="m-0">Benefits</h3>
               <p>
                 VEA. PEE. PERCO et avantages en nature et sociaux. 
                 Optimisez votre politique d'avantages sociaux et leur impact fiscal.
@@ -65,10 +58,7 @@ const Index = () => {
           {/* HR Control */}
           <Link to="/hr-control" className="block h-full">
             <div className="service-card">
-              <div className="flex items-center mb-4">
-                <Users className="w-8 h-8 mr-3 flex-shrink-0" />
-                <h3 className="m-0">HR Control</h3>
-              </div>
+              <h3 className="m-0">HR Control</h3>
               <p>
                 Pilotage et gestion des indicateurs sociaux pour un suivi 
                 précis de vos performances RH et l'aide à la décision.
