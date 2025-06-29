@@ -39,18 +39,11 @@ const Index = () => {
           {/* Hero Text */}
           <div className="text-center mb-32 animate-fade-in">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight tracking-wide">
-              BE MORE THAN
+              La puissance de la data analyse au service de l'expertise RH
             </h1>
             <p className="text-xl md:text-2xl text-white/90 font-light tracking-wide max-w-4xl mx-auto">
-              La puissance de la data analyse au service de l'expertise RH
+              Notre expertise à votre service
             </p>
-            
-            {/* CTA Button */}
-            <div className="mt-12">
-              <button className="bg-white text-[#032821] px-8 py-3 rounded-lg font-medium hover:bg-cream transition-colors text-lg">
-                Comment pouvons-nous vous aider ?
-              </button>
-            </div>
           </div>
 
           {/* Service Cards */}
